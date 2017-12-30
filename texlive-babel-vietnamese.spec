@@ -1,12 +1,6 @@
-# revision 30578
-# category Package
-# catalog-ctan /macros/latex/contrib/babel-contrib/vietnamese
-# catalog-date 2013-05-20 00:05:10 +0200
-# catalog-license lppl1.3
-# catalog-version 1.3
 Name:		texlive-babel-vietnamese
-Version:	1.3
-Release:	9
+Version:	1.4
+Release:	1
 Summary:	Babel support for typesetting Vietnamese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/vietnamese
@@ -32,11 +26,9 @@ of Vietnamese in babel.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/generic/babel-vietnamese/vietnam.ldf
-%{_texmfdistdir}/tex/generic/babel-vietnamese/vietnamese.ldf
+%{_texmfdistdir}/tex/generic/babel-vietnamese
 #- source
-%doc %{_texmfdistdir}/source/generic/babel-vietnamese/vietnamese.dtx
-%doc %{_texmfdistdir}/source/generic/babel-vietnamese/vietnamese.ins
+%doc %{_texmfdistdir}/source/generic/babel-vietnamese
 
 #-----------------------------------------------------------------------
 %prep
