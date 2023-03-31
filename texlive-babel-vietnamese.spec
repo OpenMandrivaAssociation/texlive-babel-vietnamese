@@ -1,6 +1,6 @@
 Name:		texlive-babel-vietnamese
 Version:	39246
-Release:	1
+Release:	2
 Summary:	Babel support for typesetting Vietnamese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/vietnamese
